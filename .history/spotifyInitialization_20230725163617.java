@@ -8,8 +8,6 @@ import java.util.HashMap;
 public class spotifyInitialization{
 
     public static void main(String[] args){
-        final String clientID = "";
-        final String clientSecret = "";
         String apiToken = getToken(clientID, clientSecret);
     }
 
